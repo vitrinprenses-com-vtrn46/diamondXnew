@@ -1,1 +1,132 @@
+<!DOCTYPE html>
+<html lang="tr">
+<head>
+<meta charset="UTF-8">
+<meta name="viewport" content="width=device-width, initial-scale=1.0">
+<title>Sabrina - İlan</title>
 
+<style>
+    body {
+        margin: 0;
+        padding: 0;
+        font-family: Arial, sans-serif;
+        background: #f5f5f5;
+    }
+
+    .container {
+        max-width: 480px;
+        margin: auto;
+        background: white;
+        min-height: 100vh;
+    }
+
+    /* Üst profil */
+    .profile-box {
+        display: flex;
+        padding: 20px;
+        border-bottom: 1px solid #ddd;
+        background: #fff;
+    }
+
+    .profile-img {
+        width: 90px;
+        height: 90px;
+        border-radius: 50%;
+        object-fit: cover;
+        margin-right: 15px;
+    }
+
+    .profile-info h2 {
+        margin: 0;
+        font-size: 20px;
+        font-weight: bold;
+    }
+
+    .profile-info .location {
+        color: #333;
+        margin-top: 6px;
+        font-size: 15px;
+    }
+
+    /* WhatsApp butonu */
+    .whatsapp-btn {
+        display: flex;
+        align-items: center;
+        background: #25D366;
+        padding: 18px;
+        margin: 15px;
+        border-radius: 12px;
+        text-decoration: none;
+        color: white;
+        font-size: 18px;
+        font-weight: bold;
+    }
+
+    .whatsapp-btn img {
+        width: 32px;
+        margin-right: 12px;
+    }
+
+    /* Fotoğraf Galerisi */
+    .gallery {
+        margin-top: 15px;
+    }
+
+    .gallery img {
+        width: 100%;
+        margin-bottom: 10px;
+        border-radius: 10px;
+    }
+
+    /* WhatsApp alt sabit buton */
+    .bottom-whatsapp {
+        position: sticky;
+        bottom: 0;
+        width: 100%;
+        background: #25D366;
+        text-align: center;
+        padding: 15px 0;
+        font-size: 20px;
+        color: white;
+        text-decoration: none;
+        display: block;
+        font-weight: bold;
+    }
+</style>
+</head>
+
+<body>
+<div class="container">
+
+    <!-- PROFİL BAŞLIK -->
+    <div class="profile-box">
+        <img src="FOTO-1-LINKI" class="profile-img">
+        <div class="profile-info">
+            <h2>SABRINA</h2>
+            <div class="location">Konum: (boş bırakılabilir)</div>
+        </div>
+    </div>
+
+    <!-- WHATSAPP BUTONU (Üstte) -->
+    <a class="whatsapp-btn" href="https://wa.me/905360390601" target="_blank">
+        <img src="https://upload.wikimedia.org/wikipedia/commons/6/6b/WhatsApp.svg">
+        WhatsApp: 0536 039 06 01
+    </a>
+
+    <!-- FOTOĞRAF GALERİSİ -->
+    <div class="gallery">
+        <img src="https://i0-wp-com.cdn.ampproject.org/i/s/i0.wp.com/hedonebiz.site/uploads/burcu.png">
+        <img src="https://i0-wp-com.cdn.ampproject.org/i/s/i0.wp.com/hedonebiz.site/uploads/burcu.png">
+        <img src="https://i0-wp-com.cdn.ampproject.org/i/s/i0.wp.com/hedonebiz.site/uploads/burcu.png">
+        <img src="https://i0-wp-com.cdn.ampproject.org/i/s/i0.wp.com/hedonebiz.site/uploads/burcu.png">
+    </div>
+
+</div>
+
+<!-- ALTA SABİT WHATSAPP BUTONU -->
+<a class="bottom-whatsapp" href="https://wa.me/905360390601" target="_blank">
+    WhatsApp Tıkla ➜
+</a>
+
+</body>
+</html>
