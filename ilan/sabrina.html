@@ -58,35 +58,21 @@
         }
 
         /* 4'LÜ GALERİ */
-        .gallery {
-            margin: 0 15px 20px 15px;
-        }
-        .gallery-grid {
-            display: grid;
-            grid-template-columns: repeat(4, 1fr);
-            gap: 5px;
-        }
-        .gallery-grid a {
-            display: block;
-        }
-        .gallery-grid amp-img {
-            width: 100%;
-            border-radius: 10px;
-        }
+      /* Foto Galeri İçindeki Resimleri Sabit Oranda Yap */
+.foto-galeri-item {
+    position: relative;
+    width: 100%;
+    overflow: hidden;
+    border-radius: 10px;
+}
 
-        .bottom-whatsapp {
-            position: sticky;
-            bottom: 0;
-            width: 100%;
-            background: #25D366;
-            color: #fff;
-            text-align: center;
-            font-weight: bold;
-            font-size: 20px;
-            text-decoration: none;
-            padding: 15px 0;
-            display: block;
-        }
+.foto-galeri-item img {
+    width: 100%;
+    aspect-ratio: 190 / 320; /* ORAN: 0.59 → 190x320 */
+    object-fit: cover;       /* Fotoğraf taşmaz, kırpılmaz */
+    display: block;
+    border-radius: 10px;
+}
     </style>
     <script async src="https://cdn.ampproject.org/v0.js"></script>
 </head>
