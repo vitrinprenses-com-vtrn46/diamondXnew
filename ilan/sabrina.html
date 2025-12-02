@@ -1,1 +1,135 @@
+<!doctype html>
+<html ⚡ lang="tr">
+<head>
+    <meta charset="utf-8">
+    <meta name="viewport" content="width=device-width,minimum-scale=1,initial-scale=1">
+    <title>Sabrina - Profil Galerisi</title>
+    <link rel="canonical" href="https://www.ornek-site.com">
+    <style amp-custom>
+        body {
+            margin: 0;
+            font-family: Arial, sans-serif;
+            background: #f5f5f5;
+        }
+        .container {
+            max-width: 480px;
+            margin: auto;
+            background: #fff;
+            min-height: 100vh;
+        }
+        .profile-box {
+            display: flex;
+            padding: 20px;
+            border-bottom: 1px solid #ddd;
+        }
+        .profile-img {
+            width: 90px;
+            height: 90px;
+            border-radius: 50%;
+            object-fit: cover;
+            margin-right: 15px;
+        }
+        .profile-info h2 {
+            margin: 0;
+            font-size: 20px;
+            font-weight: bold;
+        }
+        .profile-info .location {
+            margin-top: 6px;
+            font-size: 15px;
+            color: #333;
+        }
+        .whatsapp-btn {
+            display: flex;
+            align-items: center;
+            justify-content: center;
+            background: #25D366;
+            color: #fff;
+            text-decoration: none;
+            font-weight: bold;
+            font-size: 18px;
+            padding: 15px;
+            margin: 15px;
+            border-radius: 12px;
+        }
+        .whatsapp-btn img {
+            width: 28px;
+            margin-right: 10px;
+        }
 
+        /* 4'LÜ GALERİ */
+        .gallery {
+            margin: 0 15px 20px 15px;
+        }
+        .gallery-grid {
+            display: grid;
+            grid-template-columns: repeat(4, 1fr);
+            gap: 5px;
+        }
+        .gallery-grid a {
+            display: block;
+        }
+        .gallery-grid amp-img {
+            width: 100%;
+            border-radius: 10px;
+        }
+
+        .bottom-whatsapp {
+            position: sticky;
+            bottom: 0;
+            width: 100%;
+            background: #25D366;
+            color: #fff;
+            text-align: center;
+            font-weight: bold;
+            font-size: 20px;
+            text-decoration: none;
+            padding: 15px 0;
+            display: block;
+        }
+    </style>
+    <script async src="https://cdn.ampproject.org/v0.js"></script>
+</head>
+<body>
+    <div class="container">
+        <!-- PROFİL -->
+        <div class="profile-box">
+            <amp-img src="FOTO-1-LINKI" width="90" height="90" class="profile-img" layout="fixed" alt="Sabrina"></amp-img>
+            <div class="profile-info">
+                <h2>SABRINA</h2>
+                <div class="location">Konum: (boş bırakılabilir)</div>
+            </div>
+        </div>
+
+        <!-- WHATSAPP BUTONU -->
+        <a class="whatsapp-btn" href="https://wa.me/905360390601" target="_blank">
+            <img src="https://upload.wikimedia.org/wikipedia/commons/6/6b/WhatsApp.svg" alt="WhatsApp">
+            WhatsApp: 0536 039 06 01
+        </a>
+
+        <!-- 4'LÜ FOTOĞRAF GALERİSİ -->
+        <div class="gallery">
+            <div class="gallery-grid">
+                <a href="ilanlar/sabrina.html" target="_blank">
+                    <amp-img src="FOTO-1-LINKI" width="150" height="150" layout="responsive" alt="Fotoğraf 1"></amp-img>
+                </a>
+                <a href="ilanlar/sabrina.html" target="_blank">
+                    <amp-img src="FOTO-2-LINKI" width="150" height="150" layout="responsive" alt="Fotoğraf 2"></amp-img>
+                </a>
+                <a href="ilanlar/sabrina.html" target="_blank">
+                    <amp-img src="FOTO-3-LINKI" width="150" height="150" layout="responsive" alt="Fotoğraf 3"></amp-img>
+                </a>
+                <a href="ilanlar/sabrina.html" target="_blank">
+                    <amp-img src="FOTO-4-LINKI" width="150" height="150" layout="responsive" alt="Fotoğraf 4"></amp-img>
+                </a>
+            </div>
+        </div>
+
+    </div>
+
+    <!-- ALTA SABİT WHATSAPP BUTONU -->
+    <a class="bottom-whatsapp" href="https://wa.me/905360390601" target="_blank">
+        WhatsApp Tıkla ➜
+    </a>
+</body>
+</html>
