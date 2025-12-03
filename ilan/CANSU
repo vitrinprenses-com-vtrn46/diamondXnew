@@ -1,0 +1,175 @@
+<!doctype html>
+<html lang="tr" amp>
+<head>
+    <meta charset="utf-8">
+    <meta name="viewport" content="width=device-width,minimum-scale=1,initial-scale=1">
+    <title> CANSU - Profil Galerisi</title>
+    <link rel="canonical" href="https://osmanuykiz777-hue.github.io/diamondXnew/ilanlar/ALYA.html">
+
+    <!-- AMP Zorunlu Script -->
+    <script async src="https://cdn.ampproject.org/v0.js"></script>
+
+    <style amp-boilerplate>
+        body { -webkit-animation: -amp-start 8s steps(1,end) 0s 1 normal both;
+               -moz-animation: -amp-start 8s steps(1,end) 0s 1 normal both;
+               -ms-animation: -amp-start 8s steps(1,end) 0s 1 normal both;
+               animation: -amp-start 8s steps(1,end) 0s 1 normal both }
+        @-webkit-keyframes -amp-start { from { visibility: hidden } to { visibility: visible } }
+        @-moz-keyframes -amp-start { from { visibility: hidden } to { visibility: visible } }
+        @-ms-keyframes -amp-start { from { visibility: hidden } to { visibility: visible } }
+        @keyframes -amp-start { from { visibility: hidden } to { visibility: visible } }
+    </style>
+
+    <noscript>
+        <style amp-boilerplate>
+            body { -webkit-animation: none; -moz-animation: none; -ms-animation: none; animation: none }
+        </style>
+    </noscript>
+
+    <style amp-custom>
+        body {
+            margin: 0;
+            font-family: Arial, sans-serif;
+            background: #f5f5f5;
+        }
+
+        .container {
+            max-width: 480px;
+            margin: auto;
+            background: #fff;
+            min-height: 100vh;
+        }
+
+        .profile-box {
+            display: flex;
+            padding: 20px;
+            border-bottom: 1px solid #ddd;
+        }
+
+        .profile-img {
+            border-radius: 50%;
+            margin-right: 15px;
+        }
+
+        .profile-info h2 {
+            margin: 0;
+            font-size: 20px;
+            font-weight: bold;
+        }
+
+        .location {
+            margin-top: 6px;
+            font-size: 15px;
+            color: #333;
+        }
+
+        .whatsapp-btn {
+            display: flex;
+            align-items: center;
+            justify-content: center;
+            background: #25D366;
+            color: #fff;
+            text-decoration: none;
+            font-weight: bold;
+            font-size: 18px;
+            padding: 15px;
+            margin: 15px;
+            border-radius: 12px;
+        }
+
+        .whatsapp-icon {
+            width: 28px;
+            margin-right: 10px;
+        }
+
+        .gallery-grid {
+            display: grid;
+            grid-template-columns: 1fr 1fr;
+            grid-gap: 10px;
+            padding: 15px;
+        }
+
+        .bottom-whatsapp {
+            position: fixed;
+            bottom: 0;
+            left: 0;
+            right: 0;
+            background: #25D366;
+            color: white;
+            text-align: center;
+            padding: 15px;
+            font-size: 18px;
+            font-weight: bold;
+            text-decoration: none;
+        }
+    </style>
+</head>
+
+<body>
+
+    <div class="container">
+
+        <!-- PROFİL -->
+        <div class="profile-box">
+            <amp-img src="https://osmanuykiz777-hue.github.io/diamondXnew/ALYA1.jpg"
+                     width="90" height="90"
+                     layout="fixed"
+                     class="profile-img"
+                     alt="ALYA"></amp-img>
+
+            <div class="profile-info">
+                <h2>CANSU</h2>
+                <div class="location">Konum:</div>
+            </div>
+        </div>
+
+        <!-- WHATSAPP BUTONU -->
+        <a class="whatsapp-btn" href="https://wa.me/905360390601" target="_blank">
+            <amp-img src="https://upload.wikimedia.org/wikipedia/commons/6/6b/WhatsApp.svg"
+                     width="28"
+                     height="28"
+                     class="whatsapp-icon"
+                     alt="WhatsApp"></amp-img>
+            WhatsApp: 0536 039 06 01
+        </a>
+
+        <!-- FOTOĞRAF GALERİSİ -->
+        <div class="gallery">
+            <div class="gallery-grid">
+
+                <a href="https://osmanuykiz777-hue.github.io/diamondXnew/ilan/CANSU.html" target="_blank">
+                    <amp-img src="https://osmanuykiz777-hue.github.io/diamondXnew/CANSU1.jpg"
+                             width="150" height="200"
+                             layout="responsive"></amp-img>
+                </a>
+
+                <a href="https://osmanuykiz777-hue.github.io/diamondXnew/ilan/CANSU.html" target="_blank">
+                    <amp-img src="https://osmanuykiz777-hue.github.io/diamondXnew/CANSU2.jpg"
+                             width="150" height="200"
+                             layout="responsive"></amp-img>
+                </a>
+
+                <a href="https://osmanuykiz777-hue.github.io/diamondXnew/ilan/CANSU.html" target="_blank">
+                    <amp-img src="https://osmanuykiz777-hue.github.io/diamondXnew/CANSU3.jpg"
+                             width="150" height="200"
+                             layout="responsive"></amp-img>
+                </a>
+
+                <a href="https://osmanuykiz777-hue.github.io/diamondXnew/ilan/CANSU.html" target="_blank">
+                    <amp-img src="https://osmanuykiz777-hue.github.io/diamondXnew/CANSU4.jpg"
+                             width="150" height="200"
+                             layout="responsive"></amp-img>
+                </a>
+
+            </div>
+        </div>
+
+    </div>
+
+    <!-- ALTA SABİT WHATSAPP -->
+    <a class="bottom-whatsapp" href="https://wa.me/905360390601" target="_blank">
+        WhatsApp Tıkla ➜
+    </a>
+
+</body>
+</html>
