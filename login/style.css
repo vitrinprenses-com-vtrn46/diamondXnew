@@ -1,1 +1,6 @@
+body { font-family: Arial; background:#f4f4f4; padding:20px; }
+h1 { color:#333; }
+input, button { display:block; width:300px; margin:5px 0; padding:8px; }
+ul { background:#fff; padding:15px; margin-top:20px; }
+li { margin-bottom:8px; }
 
